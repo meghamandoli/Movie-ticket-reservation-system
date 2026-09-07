@@ -44,21 +44,20 @@ The project demonstrates the practical use of **Object-Oriented Programming and 
 
 ### **1. Clone the Repository**
 
-git clone https://github.com/meghamandoli/Movie-Ticket-Reservation-System.git
+git clone https://github.com/meghamandoli/Movie-ticket-reservation-system.git
 2. Open the Project Folder
-cd Movie-Ticket-Reservation-System
+cd Movie-ticket-reservation-system
 
 3. Compile
-g++ main.cpp -o movie
+g++ main.cpp -o tciket-booking
 
 5. Run
 
 Windows:
 
-movie.exe
+tciket-booking.exe
 
 Linux/macOS:
 
-./movie
-
+./tciket-booking
 ℹ️ The project is compiled through main.cpp, which includes the required project modules.
