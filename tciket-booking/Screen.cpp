@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+// Represents a cinema screen and its seats
+class Screen {
+private:
+    int screenNumber;
+    vector<Seat> seats;
+
+public:
+    Screen(int number) {
+        screenNumber = number;
+    }
+
+    void addSeat(Seat seat) {
+        seats.push_back(seat);
+    }
+
+    int getScreenNumber() {
+        return screenNumber;
+    }
+
+    vector<Seat>& getSeats() {
+        return seats;
+    }
+};
+
